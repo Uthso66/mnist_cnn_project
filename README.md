@@ -55,11 +55,11 @@ cd mnist_cnn_project
 pip install -r requirements.txt
 
 2️⃣ Train Model
-```bash
+
 python src/train.py
 
 3️⃣ Evaluate Model
-```bash
+
 python src/evaluate.py
 
 ```
