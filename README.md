@@ -50,20 +50,19 @@ mnist_cnn_project/
 ⚙️ How to Run
 1️⃣ Setup Environment
 ```bash
-git clone https://github.com/yourusername/mnist_cnn_project.git
+git clone https://github.com/Uthso66/mnist_cnn_project.git
 cd mnist_cnn_project
 pip install -r requirements.txt
----
 
 2️⃣ Train Model
 ```bash
 python src/train.py
----
+
 3️⃣ Evaluate Model
 ```bash
 python src/evaluate.py
----
 
+```
 🧑‍💻 Tech Stack
 
 - Python 3.10+
@@ -77,7 +76,7 @@ python src/evaluate.py
 - Matplotlib / Seaborn
 
 - YAML
----
+
 🔮 Future Improvements
 
 - Add TensorBoard for visualization
@@ -87,3 +86,4 @@ python src/evaluate.py
 - Convert to ONNX / TorchScript for deployment
 
 - Wrap training in Hydra for multi-experiment management
+---
