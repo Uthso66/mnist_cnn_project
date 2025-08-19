@@ -1,0 +1,15 @@
+dataset:
+  name: MNIST
+  path: ./data 
+  batch_size: 64
+  validation_split: 0.1
+  shuffle: True
+  download: True
+
+training:
+  epochs: 10
+  learning_rate: 0.001
+  optimizer: Adam
+  loss: CrossEntropyLoss
+  device: cuda
+
